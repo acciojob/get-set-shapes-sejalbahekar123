@@ -18,7 +18,7 @@ getArea(){
 	return this._width * this._height;
 }}
 
-class Square extends Animal {
+class Square extends Rectangle {
 Constructor(side){
 if (side <= 0) {
       throw new Error("Side must be a positive integer");
