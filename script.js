@@ -47,9 +47,9 @@ getArea(){
 }}
 
 class Square extends Rectangle {
-Constructor(side){
+constructor(side){
 
-  // Call parent constructor
+  
     super(side, side);
 }
 
