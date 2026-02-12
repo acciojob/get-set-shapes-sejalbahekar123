@@ -28,7 +28,7 @@ if (side <= 0) {
 }
 
 getPerimeter(){
-  return this.width * 4;
+  return this._width * 4;
 }
 
 }
