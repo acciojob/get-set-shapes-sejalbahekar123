@@ -56,21 +56,7 @@ Constructor(side){
 getPerimeter(){
   return this._width * 4;
 }
-
-// }
-// const rectangle = new Rectangle(5, 10);
-// console.log(rectangle.width);      // 5
-// console.log(rectangle.height);     // 10
-// console.log(rectangle.getArea());  // 50
-
-// const square = new Square(7);
-// console.log(square.width);         // 7
-// console.log(square.height);        // 7
-// console.log(square.getArea());     // 49
-// console.log(square.getPerimeter()); // 28
-
-
-
+}
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
